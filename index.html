@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Städer och länder</title>
+</head>
+<body>
+    <div class="container-all">
+        <div class="gradient-reverse">
+            <div class="gradient">
+                <div class="heading"><h1>Städer och Länder</h1></div>
+                <!-- Navigering länder -->
+                <div class="countries" id="countries">
+                    <!-- <a href="#" class="country-nav btn" id="country-0"></a>-->
+                </div>
+                <!-- Navigering städer -->
+                <div class="cities" id="cities">
+                    <!-- <a href="#" class="city-nav btn active" id="city-0"></a> -->
+                    </div>
+                    <!-- Spara besökt stad -->
+                    <div class="add-visited-city">
+                        <div tabindex="0" class="mini-btn nav" id="visited-btn">Markera som besökt</div>
+                        <div tabindex="0" class="nav mini-btn" id="show-visited-cities">Städer jag besökt <span id="visited-count">(0)</span></div>
+                    <div tabindex="0" class="mini-btn nav" id="delete-btn">Rensa besökta</div>
+                </div>
+                <!-- Info om stad -->
+                <div class="display" id="display"></div>
+                <!-- Info om befolkningsmängd -->
+                <div class="footer" id="footer">&copy; Nandan Tyagi 2020 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="http://www.nandantyagi.com" target="_blank" rel="noopener noreferrer">www.nandantyagi.com</a></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
